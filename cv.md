@@ -1,6 +1,6 @@
 # **Alina Zadorojna**
 ### +380683084772
-![foto](/file:///Users/alinazadorojnaya/Desktop/cv.jpg)
+![](https://drive.google.com/drive/my-drive)
 
 
 * ### Skills
