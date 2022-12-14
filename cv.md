@@ -1,6 +1,6 @@
 # **Alina Zadorojna**
 ### +380683084772
-![foto](/rsschool-cv4/cv.jpg)
+![foto](/file:///Users/alinazadorojnaya/Desktop/cv.jpg)
 
 
 * ### Skills
