@@ -1,0 +1,279 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+:focus {
+    outline: transparent;
+}
+
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f0f9ff;
+    color: #876fc8;
+}
+
+html, 
+body {
+    height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body,
+p,
+ul {
+    margin: 0;
+}
+code, 
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre-line;
+    margin: 0px;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+   flex: 1 1 auto;
+
+}
+.footer {
+    background-color: #b8bfe4;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    display: inherit;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.container {
+    max-width: 900px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header {
+    background-color: #b8bfe4;
+}
+
+.header.sticky {
+    transition: all 0.5s ease;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    background-color: #b8bfe4;
+    z-index: 6;
+}
+
+.menu,
+.section {
+    margin-bottom: 50px ;
+}
+
+.menu__list {
+    display: flex;
+    padding: 20px 0;
+    justify-content: right;
+    text-transform: capitalize;
+}
+
+.menu__item {
+    margin-left: 20px;
+    color: #2c539e;
+}
+
+.menu__link {
+    border-radius: 3px;
+    transition-property: box-shadow, opacity;
+    transition-duration: 0.5s, 0.6s;
+    padding: 3px;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+}
+
+.menu__link:focus {
+    box-shadow: 0 0 3px #2c539e;
+}
+
+.menu__link:hover {
+    opacity: 0.7;
+}
+.info__inner {
+    align-items: center;
+}
+.contacts__inner,
+.info__inner,
+.skils__inner,
+.education__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.title-name {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: #624f97;
+
+}
+
+.title-name span {
+    position: relative;
+    display:  block;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-top: 20px;
+}
+.title-name span:before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: #624f97;
+    top: -10px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+.images {
+    max-width: 200px;
+    border-radius: 20%;
+    background-position: center;
+    background-size: cover;
+}
+
+.contacts__text {
+    max-width: 430px;
+}
+.contacts__item {
+    margin-bottom: 10px;
+}
+.title {
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 0.3em;
+    margin-bottom: 20px;
+    color: #624f97;
+}
+
+.contacts__link {
+    padding-left: 20px;
+    position: relative;
+}
+
+.contacts__link::before {
+    content: '';
+    position: absolute;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 13px;
+    height: 13px;
+    left: 0;
+    bottom: 0;
+}
+
+.contacts__link--phone::before {
+    background-image: url('../images/icon/phone.svg');
+   
+}
+
+.contacts__link--mail::before {
+    background-image: url('../images/icon/mail2.svg');
+   
+}
+
+.contacts__link--github::before {
+    background-image: url('../images/icon/github.svg');
+
+}
+.title-code {
+    margin-bottom: 0;
+}
+.skils__code {
+    max-width: 430px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.skils__item {
+    margin-bottom: 10px;
+}
+
+.education__info {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.education__info span{
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+    margin-left: 10px;
+}
+
+.footer__inner {
+    padding: 15px 0;
+    text-align: center;
+}
+.logo-img {
+    width: 100px; 
+}
+.logo-link {
+    display: inline-block;
+    transition-property: box-shadow, opacity;
+    transition-duration: 0.4s, 0.5s;
+    border-radius: 3px;
+}
+
+.logo-link:focus {
+    box-shadow: 0 0 0 3px #624f97;
+}
+.logo-link:hover {
+    opacity: 0.5;
+}

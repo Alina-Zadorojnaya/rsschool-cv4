@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+<body>
+
+    <div class="wrraper">
+        <header class="header">
+            <div class="container">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a class="menu__link" href="#contacts">contact</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#skils">skill</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#education">education</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#skils">code</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#info">about</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <section id="info" class="info section">
+                <div class="container">
+                    <div class="info__inner">
+                        <img class="images" src="images/cv.jpg" alt="foto user">
+                        <h1 class="title-name">
+                            Alina Zadorojnaya
+                            <span>Web developer</span>
+                        </h1>
+                    </div>
+                </div>
+            </section>
+            <section id="contacts" class="contacts section">
+                <div class="container">
+                    <h2 class="sr-only">contact info</h2>
+                    <div class="contacts__inner">
+                        <div class="contacts__text">
+                            <h2 class="title">summary</h2>
+                            <p>
+                                I can say about myself that I am stress-resistant, I always go to the end, I like to
+                                learn and learn something new for myself. I feel free in the new team.
+                            </p>
+                        </div>
+                        <div class="contacts__box">
+                            <h2 class="title">contacts</h2>
+                             <ul class="contacts__list">
+                           
+                            <li class="contacts__item">
+                                <a class="contacts__link contacts__link--phone" href="tel:+380683084772"> +38(068)
+                                    308-47-72</a>
+                            </li>
+                            <li class="contacts__item">
+                                <a class="contacts__link contacts__link--mail"
+                                    href="email">alinasmartmebel@gmail.com</a>
+                            </li>
+                            <li class="contacts__item">
+                                <a class="contacts__link contacts__link--github" href="#">GitHub: Alina-Zadorojnaya</a>
+                            </li>
+                        </ul>
+                        </div>
+                       
+                    </div>
+
+                </div>
+            </section>
+            <section id="skils" class="skils section">
+                <div class="container">
+                    <div class="skils__inner">
+                        <div class="skils__code">
+                            <h3 class="title title-code">code</h3>
+                            <pre>
+                                 <code>
+                                function multiply(a, b){
+                                    a * b
+                                  }
+                                  
+                                  describe("Multiply", () => {
+                                    it("fixed tests", () => {
+                                      assert.strictEqual(multiply(1,1), 1);
+                                      assert.strictEqual(multiply(2,1), 2);
+                                      assert.strictEqual(multiply(2,2), 4);
+                                      assert.strictEqual(multiply(3,5), 15);   
+                                    });
+                                  });
+                            </code> 
+                            </pre>
+                        </div>
+                        <div class="slils__box">
+                            <h3 class="title">skils</h3>
+                            <ul class="skils__list">
+                            
+                                <li class="skils__item">
+                                    HTML & CSS </li>
+                                <li class="skils__item">
+                                    SASS/LESS, BEM methodology</li>
+                                <li class="skils__item">JavaScript (Basic)</li>
+                                <li class="skils__item">GitHub</li>
+                                <li class="skils__item">Figma, Photoshop</li>
+                                <li class="skils__item">Editors: Sublime, VSCode</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <section id="education" class="section education">
+                <div class="container">
+                    <div class="education__inner">
+                        <div class="education__item">
+                            <h3 class="title">Education</h3>
+                            <ul class="education__list">
+                                <li class="education__info">
+                                    Eastern European University
+                                    <span>Economics and Management</span>
+                                </li>
+                                <li class="education__info">
+                                    Hillel IT School
+                                    <span>courses frontend-development</span>
+                                </li>
+                                <li class="education__info">
+                                   
+                                    Mentors CSS / Html JS
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="education__item">
+                            <h3 class="title">english</h3>
+                            <p>Elementary</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <a class="logo-link" href="https://rs.school/js/">
+                        <img class="logo-img" src="images/rs_school_js.svg" alt="logo">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
