@@ -12,7 +12,12 @@
 * Figma, Photoshop
 * Editors: Sublime, VSCode
 
-
+* ### Education
+* Eastern European University
+* * Economics and Management
+* Hillel IT School
+* * courses frontend-development
+* mentors CSS / Html JS
 
 
 
